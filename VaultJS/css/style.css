@@ -1,0 +1,97 @@
+body {
+  background-color: rgba(45, 47, 44, 0.91);
+}
+
+#header {
+  width: auto;
+  height: 190px;
+  background-image: url("../img/vaultt.png");
+  background-size: cover;
+  border-radius: 1em;
+}
+
+#mainContainer {
+  margin:  auto;
+  background-color: black;
+  height :400px;
+  width: 500px;
+  position: relative;
+  top: 125px;
+  border-radius: 1em;
+}
+
+#unlocked {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  background-color: LightGreen;
+  border-radius: 50%
+
+}
+
+#locked {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  background-color: red;
+  border-radius: 50%
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-top: 20px;
+  position:relative;
+  top:95px;
+  left: 350px;
+  bottom: 50px;
+  display: block;
+}
+
+#output {
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#counter{
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#trueorfalse {
+  height: 25px;
+  width: 280px;
+  position: absolute;
+  top: 5px;
+  left: 110px;
+  color: white;
+  font-size: 30px;
+}
+
+
+footer {
+	position:fixed;
+	left: 0px;
+	bottom: 0px;
+	height:40px;
+	width:100%;
+	color: white;
+	text-align: center;
+}
